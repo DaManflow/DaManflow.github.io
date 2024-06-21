@@ -93,7 +93,10 @@ a{
 }
 
 
-@media screen and (max-width: 775px){
+@media screen and (max-width: 775px){    
+    body{
+    background-color: lightgrey;
+    } 
     
     #nom-projet{
         margin: 50px 25px;

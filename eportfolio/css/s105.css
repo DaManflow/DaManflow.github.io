@@ -103,7 +103,10 @@ a{
     left: 50%;
 }
 
-@media screen and (max-width: 775px){
+@media screen and (max-width: 775px){    
+    body{
+    background-color: lightgrey;
+    } 
     #nav td {
         position: relative;
         background-color: grey;
@@ -176,7 +179,10 @@ a{
 
 }
 
-@media screen and (min-width:775px) and (max-width: 900px){
+@media screen and (min-width:775px) and (max-width: 900px){    
+    body{
+    background-color: lightgrey;
+    } 
     .l .maquette-1{
     position: relative;
     left: 10%;

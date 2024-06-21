@@ -63,7 +63,10 @@ a{
     left: 20%;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px){    
+    body{
+    background-color: lightgrey;
+    }
 
     #titre{
         border: 2px solid black;
@@ -76,7 +79,10 @@ a{
     }
 }
 
-@media screen and (min-width: 800px) and (max-width: 900px){
+@media screen and (min-width: 800px) and (max-width: 900px){    
+    body{
+    background-color: lightgrey;
+    }    
     #titre{
         border: 2px solid black;
         width: 50%;
@@ -89,7 +95,10 @@ a{
 
 }
 
-@media screen and (min-width: 900px) and (max-width: 1030px){
+@media screen and (min-width: 900px) and (max-width: 1030px){    
+    body{
+    background-color: lightgrey;
+    }    
     #titre{
         border: 2px solid black;
         width: 30%;
@@ -102,7 +111,10 @@ a{
 
 }
 
-@media screen and (min-width: 1030px){
+@media screen and (min-width: 1030px){    
+    body{
+    background-color: lightgrey;
+    } 
     #titre{
         border: 2px solid black;
         width: 30%;

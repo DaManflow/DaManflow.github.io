@@ -40,6 +40,9 @@ td:hover {
 
 
 @media screen and (max-width: 800px){
+    body{
+        background-color: lightgrey;
+    }
 
     .titre{
         font-size: 50px;
@@ -62,6 +65,9 @@ td:hover {
 }
 
 @media screen and (min-width: 800px) and (max-width: 900px){
+    body{
+        background-color: lightgrey;
+        }
     .titre{
         font-size: 44px;
     }
@@ -84,6 +90,9 @@ td:hover {
 }
 
 @media screen and (min-width: 900px) and (max-width: 1030px){
+    body{
+        background-color: lightgrey;
+        }
     table{
         position: absolute;
         left: 20%;
@@ -101,6 +110,9 @@ td:hover {
 }
 
 @media screen and (min-width: 1030px){
+    body{
+        background-color: lightgrey;
+        }
     table{
         position: absolute;
         
