@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>The Monter Parade</title>
+	<link href="css/equipe.css" type="text/css" rel="stylesheet" />
+	<title> Equipe </title>
+  <script src="js/equipeen.js"></script>
+</head>
+<body>
+<div>
+<header>
+	<div class="header">
+		<a class="menu-btn" href="#">Menu</a>
+		<div class="menu-dropdown">
+		  <ul>
+			<li><a href="indexen.html">Home</a></li>
+			<li><a href="page2023en.html">The Monter Parade</a></li>
+			<li><a href="equipeen.html">Team</a></li>
+		  </ul>
+		</div>
+	 </div>
+</header>
+
+<div class="language-menu">
+	<button id="language-btn">Languages</button>
+	<select id="language-select" onchange="changeLanguage()">
+	  <option value="en">English</option>
+		<option value="fr">French</option>
+	</select>
+</div>
+</div>
+
+	<main>
+		<h1 class="title">Team</h1>
+		<div class="qui">	<h2> Who are we ?</h2>
+	We are a team of 5 computer science students. As part of our training, we were led to discover a cultural event and then to create a website as well as a poster for a 2024 edition of it.
+	Thus our choice fell on a so-called fabulous edition of "The Monstrous Parade" which we soberly named "The Fabulous Parade".
+		</div>
+
+		<br>
+
+		<div class="container">
+			<div class="center">
+			  <div class="card">
+				<img src="images/c.png">
+				<div class="description">
+				  <h2>Charlotte - Project Manager</h2>
+				  <p>I am responsible for completing this project and making sure it is going well. I have to set up the roadmap with the project steps in order to be able to report on the progress of the project and I have to make sure that each step is done properly.
+                    I am in charge of the project management, i.e. defining the needs but also of the final validation of the project in order to ensure that it meets the needs. I am in charge of writing the specifications and the logbook to properly manage the project and the team.
+                    Finally, I also take care of sending the deliverables.
+					 </p>
+				</div>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="card">
+				<img src="images/g.png">
+				<div class="description">
+				  <h2>Grace - Community manager</h2>
+				  <p>I am responsible for communication and external contact. I write emails, organize appointments and conduct interviews. I also take care of archiving and organizing email exchanges with our contacts as well as answering their questions. Finally, I also make sure that the documents concerning the image rights of the people and the right to broadcast images of the exhibition are in order. </p>
+				</div>
+			  </div>
+			  <div class="card">
+				<img src="images/m.png">
+				<div class="description">
+				  <h2> Manon - Poster designer</h2>
+				  <p>I have the role of designer for the poster, this by researching the market trends, colors to meet the expectations of customers.
+					The design of the poster using design tools such as PhotoShop, Figma ...
+					I am also in charge of helping the developer and the designer for the realization of the website.
+					</p>
+				</div>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="card">
+				<img src="images/k.png">
+				<div class="description">
+				  <h2>Kenza - Site Designer</h2>
+				  <p>Analysis of the client's needs to understand the expectations of the exhibition.
+					Designing the website architecture by organizing the exhibition information in a logical and coherent way, determining the different categories of the website.
+					Gathering the texts, images, videos and other contents of the exhibition.
+					Creating mock-ups by visualizing the different pages and interactions of the website, using appropriate design software.
+					Design a visual style using colors, fonts and images that reflect the atmosphere of the exhibition.
+					Gather feedback and suggestions from the entire team for improvements.
+					 </p>
+				</div>
+			  </div>
+			  <div class="card">
+				<img src="images/y.png">
+				<div class="description">
+				  <h2>Yossra - Site developer</h2>
+				  <p>In this project I am in charge of the development part of the project. This one allows to format the website using different programming languages HTML, CSS, JavaScript based on the prototype made by the designer.
+					Testing the site to ensure that it works properly.
+					Maintaining the site to ensure that it functions properly.
+					 </p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+	</main>
+
+
+
+<footer>
+  <div class="footer-left">
+    <h3>Adress</h3>
+    <p>Centre des arts<br>
+       12-16 rue de la Libération<br>
+       95880 Enghien-les-Bains<br>
+	   <a href="https://www.google.com/maps?q=Centre+des+arts,+12-16+rue+de+la+Lib%C3%A9ration,+95880+Enghien-les-Bains&um=1&ie=UTF-8&sa=X&ved=2ahUKEwj9yJeYvJHxAhWMCsAKHQNqBjwQ_AUoAXoECAEQAw">Google Maps</a></p>
+  </div>
+
+  <div class="footer-medium">
+    <h3>Social networks</h3>
+    <p><a href="https://www.instagram.com/enghientourisme/">Instagram</a><br>
+       <a href="https://www.facebook.com/enghientourisme/">Facebook</a><br>
+       <a href="https://www.linkedin.com/company/office-de-tourisme-et-des-congr%C3%A8s-d'enghien-les-bains/">Linkedin</a><br>
+	   <a href="https://www.youtube.com/channel/UC2MFizWwmLT4Q4ckDK15r3w">Youtube</a><br>
+	 </div>
+
+  <div class="footer-right">
+    <ul>
+      <li><a href="equipeen.html">About</a></li>
+	  <li><button id="myBtn">Contact Us</button>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+          <span class="close">&times;</span>
+          <form id="contact-form">
+            <label for="nom">Name :</label>
+            <input type="text" id="nom" name="nom" required><br>
+        
+            <label for="prenom">First name :</label>
+            <input type="text" id="prenom" name="prenom" required><br>
+        
+            <label for="email">Email adress :</label>
+            <input type="email" id="email" name="email" required><br>
+        
+            <label for="commentaire">Comment :</label>
+            <textarea id="commentaire" name="commentaire" required></textarea><br>
+        
+            <input id='envoyer' type="submit" value="Send">
+          </form>
+          </div>
+        </div>
+        </li>
+    </ul>
+  </div>
+
+</footer>
+</body>
+</html>

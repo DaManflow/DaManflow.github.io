@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>page2023</title>
+        <link href="css/page2023.css" type="text/css" rel="stylesheet" >
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+      <script src="js/page2023en.js"></script>
+    </head>
+<body>
+<header>
+	<div class="header">
+		<a class="menu-btn" href="#">Menu</a>
+		<div class="menu-dropdown">
+		  <ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="page2023.html">The Monster Parade</a></li>
+			<li><a href="equipe.html">Team</a></li>
+		  </ul>
+		</div>
+	  </div>
+</header>
+<div class="language-menu">
+	<button id="language-btn">Languages</button>
+	<select id="language-select" onchange="changeLanguage()">
+      <option value="en">English</option>
+	  <option value="fr">French</option>
+	</select>
+  </div>
+	<main>
+		<h1 class="title">The Monster Parade</h1>
+		<div>
+		<div class="photo-section">
+		<h2>Photos of the exhibition</h2>
+<div class="slick-carousel">
+  <div><img src="src/IMG_1228.jpg"></div>
+  <div><img src="src/IMG_1218.jpg"></div>
+  <div><img src="src/IMG_1216.jpg"></div>
+  <div><img src="src/IMG_1217.jpg"></div>
+  <div><img src="src/IMG_1220.jpg"></div>
+  <div><img src="src/IMG_1229.jpg"></div>
+  <div><img src="src/IMG_1237.jpg"></div>
+  <div><img src="src/IMG_1250.jpg"></div>
+  <div><img src="src/IMG_1260.jpg"></div>
+  <div><img src="src/IMG_1239.jpg"></div>
+  <div><img src="src/IMG_1253.jpg"></div>
+  <div><img src="src/IMG_1257.jpg"></div>
+  <div><img src="src/IMG_1238.jpg"></div>
+  <div><img src="src/IMG_1234.jpg"></div>
+  <div><img src="src/IMG_1235.jpg"></div>
+  <div><img src="src/IMG_1227.jpg"></div>
+</div>
+</div>
+<div class="partie-droite">
+<div class="recap-section">
+	<h2>Summary of the exhibition</h2>
+	<p>The Monstrous Parade is a horrifying art exhibition featuring works by local and international artists.
+    The exhibition explores themes of fear, horror, and the supernatural through a variety of mediums, including painting, sculpture, photography, and installation.</p>
+  </div>
+</div>
+</main>
+<div class="interview-section">
+	<h2>Summary of the interview</h2>
+  <p>
+1. Can you tell me about your artistic organization and its objectives? <br>
+2. How do you choose the artists you exhibit? <br>
+3. What are the next exhibitions planned? <br>
+4. How do you promote your exhibitions to the public? What marketing campaign/approach did you put in place? (for example on the internet or in newspapers or other) <br>
+5. Do you have any special events or educational programs associated with your exhibits? <br>
+6. How do you finance your exhibitions / what is the cost? <br>
+7. How do you measure the success of your exhibitions? <br>
+8. Are there any plans for collaboration with other arts organizations in the future? <br>
+9. How long did it take you to set up this exhibition? <br>
+10. How did you come up with the idea of ​​creating this exhibition and why? <br>
+11. Which audience did you want to target and which audience did you most appeal to? <br>
+12. Does it work better, worse, or as well as previous exposures? Why you think ? <br>
+14. What did you want to inspire in visitors? what was the purpose? <br>
+15. How many exhibitors were there for this exhibition? <br>
+16. How did you get the show? <br>
+17. What steps did you take to get the costumes lent? <br>
+18. Are you an individual or do you work for a company? <br>
+19. Do you think it's easier to be taken seriously working in a company than working alone? <br>
+	</p>
+  </div>
+<footer>
+  <div class="footer-left">
+    <h3>Adress</h3>
+    <p>Centre des arts<br>
+       12-16 rue de la Libération<br>
+       95880 Enghien-les-Bains<br>
+	   <a href="https://www.google.com/maps?q=Centre+des+arts,+12-16+rue+de+la+Lib%C3%A9ration,+95880+Enghien-les-Bains&um=1&ie=UTF-8&sa=X&ved=2ahUKEwj9yJeYvJHxAhWMCsAKHQNqBjwQ_AUoAXoECAEQAw">Google Maps</a></p>
+  </div>
+  <div class="footer-medium">
+    <h3>Social networks</h3>
+    <p><a href="https://www.instagram.com/enghientourisme/">Instagram</a><br>
+       <a href="https://www.facebook.com/enghientourisme/">Facebook</a><br>
+       <a href="https://www.linkedin.com/company/office-de-tourisme-et-des-congr%C3%A8s-d'enghien-les-bains/">Linkedin</a><br>
+	   <a href="https://www.youtube.com/channel/UC2MFizWwmLT4Q4ckDK15r3w">Youtube</a><br>
+	</div>
+  <div class="footer-right">
+    <ul>
+      <li><a href="equipeen.html">About</a></li>
+      <li><button id="myBtn">Contact Us</button>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+          <span class="close">&times;</span>
+          <form id="contact-form">
+            <label for="nom">Name :</label>
+            <input type="text" id="nom" name="nom" required><br>
+        
+            <label for="prenom">First name :</label>
+            <input type="text" id="prenom" name="prenom" required><br>
+        
+            <label for="email">Email adress :</label>
+            <input type="email" id="email" name="email" required><br>
+        
+            <label for="commentaire">Comment :</label>
+            <textarea id="commentaire" name="commentaire" required></textarea><br>
+        
+            <input id='envoyer' type="submit" value="Send">
+          </form>
+          </div>
+        </div>
+        </li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>
