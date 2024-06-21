@@ -36,7 +36,9 @@ a{
     font-size: 30px;
 }
 @media screen and (max-width: 775px){
-
+    body{
+    background-color: lightgrey;
+}
     #photo-rpz{
         position: relative;
         border: 2px solid salmon;
@@ -91,6 +93,9 @@ a{
 }
 
 @media screen and (min-width: 775px) and (max-width: 900px){
+    body{
+    background-color: lightgrey;
+}
     #photo-rpz{
         position: relative;
         border: 2px solid salmon;
@@ -146,6 +151,9 @@ a{
 }
 
 @media screen and (min-width: 900px) and (max-width: 1030px){
+    body{
+    background-color: lightgrey;
+}
     #photo-rpz{
         border: 2px solid salmon;
         position: relative;
@@ -200,6 +208,9 @@ a{
 }
 
 @media screen and (min-width: 1030px){
+    body{
+    background-color: lightgrey;
+}
     #photo-rpz{
         border: 2px solid salmon;
         position: relative;
