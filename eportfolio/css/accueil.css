@@ -1,4 +1,6 @@
-
+body{
+    background-color: lightgrey;
+}
 
 a{
     text-decoration: none;
