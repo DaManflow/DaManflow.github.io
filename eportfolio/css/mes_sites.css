@@ -12,7 +12,7 @@ a{
     color: black;
     cursor: pointer;
 }
-a .lien_site{
+.lien_site{
     text-decoration: none;
     color: red;
     cursor: pointer;
