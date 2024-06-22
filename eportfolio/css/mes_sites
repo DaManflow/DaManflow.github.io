@@ -1,0 +1,275 @@
+body{
+    background-color: lightgrey;
+}
+
+a:hover{
+    background-color: lightsalmon;
+    color: purple;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+
+.class{
+    margin: 10px 20px 10px 20px;
+    border: 1px solid black;
+}
+
+#nav td {
+    position: relative;
+    background-color: grey;
+    text-align:center;
+    font-family: "Times New Roman";
+
+}
+
+.a-cacher{
+    opacity: 0;
+}
+.titre_categorie{
+    position:relative;
+    font-family: bold, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: start;
+    font-size: 30px;
+}
+@media screen and (max-width: 775px){
+    body{
+    background-color: lightgrey;
+    }
+    #photo-rpz{
+        position: relative;
+        border: 2px solid salmon;
+        left: 5%;
+        width: 50%;
+    }
+
+    #valeurs{
+        position: relative;
+        left: 2%;
+        top: 30%;
+        border-spacing: 20px;
+    }
+
+    #valeurs td {
+        border: 2px solid salmon;
+        width: 300px;
+        height: 150px;
+        text-align:center;
+    }
+
+    #personnalite{
+        position: relative;
+        left: 2%;
+        top: 30%;
+        border-spacing: 20px;
+    }
+
+    #personnalite td{
+        border: 2px solid salmon;
+        width: 300px;
+        height: 150px;
+        text-align:center;
+    }
+
+    #qualites{
+        position: relative;
+        left: 2%;
+        top: 30%;
+        border-spacing: 20px;
+    }
+
+    #qualites td{
+        border: 2px solid salmon;
+        width: 300px;
+        height: 150px;
+        text-align:center;
+    }
+    #avocat{
+        width:300px;
+    }
+}
+
+@media screen and (min-width: 775px) and (max-width: 900px){
+    body{
+    background-color: lightgrey;
+}
+    #photo-rpz{
+        position: relative;
+        border: 2px solid salmon;
+        width: 200px;
+        left: 10%;
+    }
+
+    #valeurs{
+        position: relative;
+        left: 2%;
+        top: 30%;
+        border-spacing: 20px;
+    }
+
+    #valeurs td {
+        border: 2px solid salmon;
+        width: 300px;
+        height: 150px;
+        text-align:center;
+    }
+
+    #personnalite{
+        position: relative;
+        left: 2%;
+        top: 30%;
+        border-spacing: 20px;
+    }
+
+    #personnalite td{
+        border: 2px solid salmon;
+        width: 300px;
+        height: 150px;
+        text-align:center;
+    }
+
+    #qualites{
+        position: relative;
+        left: 2%;
+        top: 30%;
+        border-spacing: 20px;
+    }
+
+    #qualites td{
+        border: 2px solid salmon;
+        width: 300px;
+        height: 150px;
+        text-align:center;
+    }
+    #avocat{
+        width:300px;
+    }
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1030px){
+    body{
+    background-color: lightgrey;
+}
+    #photo-rpz{
+        border: 2px solid salmon;
+        position: relative;
+        width: 200px;
+    }
+
+    #valeurs{
+        position: relative;
+        left: 2%;
+        top: 30%;
+        border-spacing: 20px;
+    }
+
+    #valeurs td {
+        border: 2px solid salmon;
+        width: 300px;
+        height: 150px;
+        text-align:center;
+    }
+
+    #personnalite{
+        position: relative;
+        left: 2%;
+        top: 30%;
+        border-spacing: 20px;
+    }
+
+    #personnalite td{
+        border: 2px solid salmon;
+        width: 300px;
+        height: 150px;
+        text-align:center;
+    }
+
+    #qualites{
+        position: relative;
+        left: 2%;
+        top: 30%;
+        border-spacing: 20px;
+    }
+
+    #qualites td{
+        border: 2px solid salmon;
+        width: 300px;
+        height: 150px;
+        text-align:center;
+    }
+    #avocat{
+        width:300px;
+    }
+
+}
+
+@media screen and (min-width: 1030px){
+    body{
+    background-color: lightgrey;
+}
+    #photo-rpz{
+        border: 2px solid salmon;
+        position: relative;
+        left: 40%;
+        width: 20%;
+    }
+
+    #valeurs{
+        position: relative;
+        left: 2%;
+        top: 30%;
+        border-spacing: 20px;
+    }
+
+    #valeurs td {
+        border: 2px solid salmon;
+        width: 300px;
+        height: 150px;
+        text-align:center;
+    }
+
+    #personnalite{
+        position: relative;
+        left: 2%;
+        top: 30%;
+        border-spacing: 20px;
+    }
+
+    #personnalite td{
+        border: 2px solid salmon;
+        width: 300px;
+        height: 150px;
+        text-align:center;
+    }
+
+    #qualites{
+        position: relative;
+        left: 2%;
+        top: 30%;
+        border-spacing: 20px;
+    }
+
+    #qualites td{
+        border: 2px solid salmon;
+        width: 300px;
+        height: 150px;
+        text-align:center;
+    }
+    #avocat{
+        width:300px;
+    }
+}
+
+#haut{
+    border: 2px solid black;
+    width: 15%;
+    padding: 20px 10px 20px 10px;
+    background-color: lightsalmon;
+    text-align: center;
+    position: relative;
+    left: 50%;
+}
