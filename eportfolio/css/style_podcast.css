@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Container principal qui contiendra la miniature à gauche et les pistes à droite */
+.podcast-container {
+    display: flex;
+    align-items: center; /* Centrer verticalement */
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Miniature à gauche */
+.miniature {
+    flex: 1;
+    max-width: 200px;
+}
+
+.miniature img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Liste des pistes à droite */
+.pistes {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Boutons audio (play, pause, stop) */
+.audio-controls {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.audio-controls button {
+    background-color: #4CAF50; /* Couleur verte */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio-controls button:hover {
+    background-color: #45a049; /* Couleur plus foncée au survol */
+}
+
+/* Style pour la barre de progression */
+.progress-bar {
+    width: 100%;
+    height: 5px;
+    background-color: #ddd;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.progress-bar input {
+    width: 100%;
+    height: 5px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+}
+
+.pistes .piste {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.pistes .piste span {
+    font-size: 18px;
+}
+
+/* Style pour le lecteur audio */
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
