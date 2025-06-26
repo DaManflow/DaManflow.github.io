@@ -68,7 +68,7 @@ a{
     background-color: white;
 }
 
-#nom-projet-s501 {
+#projet-s501 {
     margin: 15px 15px;
     border: 4px solid blueviolet;
     padding: 5px 5px 5px 5px;
@@ -83,6 +83,23 @@ a{
     color: blueviolet;
     background-color: white;
 }
+
+#projet-audit{
+    margin: 15px 15px;
+    border: 4px solid blueviolet;
+    padding: 5px 5px 5px 5px;
+    width: 85%;
+    position: relative;
+    text-align: center;
+    left: 5%;
+    font-size: 40px;
+    font-family:"Lucida Handwriting";
+    font-weight: bold;
+  
+    color: blueviolet;
+    background-color: white;
+}
+
 
 #description{
     margin: 5px;
