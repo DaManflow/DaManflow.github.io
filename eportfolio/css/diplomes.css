@@ -187,7 +187,7 @@ a{
     font-size: 36px;
     margin-bottom: 25px;
     text-align: center;
-    color: #2f4f4f;
+    color: rgb(62, 25, 97);
     border-bottom: 2px solid salmon;
     padding-bottom: 10px;
 }
@@ -211,4 +211,33 @@ a{
 .contenu p {
     margin-bottom: 20px;
     text-align: justify;
+}
+
+.site {
+  background-color: #f3f3f3;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-left: 5px solid salmon;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 6px;
+}
+
+.site h2 {
+  font-size: 24px;
+  color: rgb(126, 78, 172);
+  margin-top: 0;
+}
+
+.description {
+  font-style: italic;
+  color: #555;
+}
+
+.site a {
+  color: salmon;
+  text-decoration: none;
+}
+
+.site a:hover {
+  text-decoration: underline;
 }
