@@ -3,7 +3,6 @@ body{
 }
 
 a:hover{
-    background-color: lightsalmon;
     color: purple;
 }
 
@@ -311,41 +310,44 @@ a{
 }
 
 .contenu {
-    max-width: 800px;
-    margin: 40px auto;
+    max-width: 900px;
+    margin: 60px auto;
     padding: 0 20px;
-    font-family: 'Georgia', 'Times New Roman', serif;
-    font-size: 18px;
-    line-height: 1.6;
     color: #333;
 }
 
-.contenu h1 {
+h1 {
     font-size: 36px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     text-align: center;
     color: rgb(62, 25, 97);
-    border-bottom: 2px solid salmon;
-    padding-bottom: 10px;
 }
 
-.contenu h2 {
-    font-size: 28px;
-    margin-top: 40px;
-    margin-bottom: 15px;
-    color: slategray;
-    border-left: 4px solid salmon;
-    padding-left: 10px;
+.site {
+  background-color: #f3f3f3;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-left: 5px solid salmon;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 6px;
 }
 
-.contenu h3 {
-    font-size: 22px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    color: #555;
-    font-style: italic;
+.site h2 {
+  font-size: 24px;
+  color: rgb(126, 78, 172);
+  margin-top: 0;
 }
-.contenu p {
-    margin-bottom: 20px;
-    text-align: justify;
+
+.description {
+  font-style: italic;
+  color: #555;
+}
+
+.site a {
+  color: salmon;
+  text-decoration: none;
+}
+
+.site a:hover {
+  text-decoration: underline;
 }
