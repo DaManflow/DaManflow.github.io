@@ -38,7 +38,7 @@ a{
     left: 30%;
 }
 
-#nav td {
+.nav td {
     position: relative;
     background-color: grey;
     text-align:center;

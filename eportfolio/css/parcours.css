@@ -13,7 +13,7 @@ a{
 }
 
 
-#nav td {
+.nav td {
     position: relative;
     background-color: grey;
     text-align:center;
