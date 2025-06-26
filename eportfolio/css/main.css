@@ -1,0 +1,22 @@
+.page-title {
+  text-align: center;
+  margin: 60px auto 40px;
+  padding-bottom: 10px;
+  border-bottom: 5px solid blueviolet;
+  width: fit-content;
+  max-width: 90%;
+}
+
+.page-title h1 {
+  font-size: 36px;
+  color: blueviolet;
+  margin: 0;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  letter-spacing: 1px;
+}
+
+.page-title .subtitle {
+  font-size: 25px;
+  color: rgb(136, 106, 165);
+  margin-top: 8px;
+}
