@@ -6,12 +6,43 @@ a:hover{
     color: purple;
 }
 
-.nav td {
-    position: relative;
-    background-color: grey;
-    text-align:center;
-    font-family: "Times New Roman";
-    
+.navbar {
+    background-color: lightgrey;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+.nav-list a {
+    display: inline-block;
+    padding: 10px 15px;
+    color: black;
+    font-family: 'Segoe UI', 'Times New Roman', serif;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-list a:hover {
+    background-color: lightcyan;
+    color: salmon;
+    transform: translateY(-5px);
 }
 
 a{
