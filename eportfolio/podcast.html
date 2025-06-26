@@ -22,68 +22,73 @@
 		</ul>
 	</nav>
 
-		<div id="nom-projet">Podcast - L'info à l'antenne</div>
-		<hr/>
-
-		<h1>Version hébergée par le site</h1>
-    
-    <!-- Container principal pour la miniature et les pistes -->
-    <div class="podcast-container">
-        <!-- Miniature -->
-        <div class="miniature">
-            <img src="img/miniature.webp" alt="Miniature du podcast">
-        </div>
-        
-        <!-- Liste des 4 pistes audio -->
-        <div class="pistes">
-            <div class="piste">
-                <!-- Piste 1 -->
-                <button onclick="playAudio('part1')">▶</button>
-                <span>Partie 1</span>
-                <audio id="part1" class="audio" src="audio/l_info_a_l_antenne_ep1_partie_1.wav"></audio>
-            </div>
-            <div class="piste">
-                <!-- Piste 2 -->
-                <button onclick="playAudio('part2')">▶</button>
-                <span>Partie 2</span>
-                <audio id="part2" class="audio" src="audio/l_info_a_l_antenne_ep1_partie_2.wav"></audio>
-            </div>
-            <div class="piste">
-                <!-- Piste 3 -->
-                <button onclick="playAudio('part3')">▶</button>
-                <span>Partie 3</span>
-                <audio id="part3" class="audio" src="audio/l_info_a_l_antenne_ep1_partie_3.wav"></audio>
-            </div>
-            <div class="piste">
-                <!-- Piste 4 -->
-                <button onclick="playAudio('part4')">▶</button>
-                <span>Partie 4</span>
-                <audio id="part4" class="audio" src="audio/l_info_a_l_antenne_ep1_partie_4.wav"></audio>
-            </div>
-
-            <!-- Contrôles audio -->
-            <div class="audio-controls">
-                <!-- Bouton pause -->
-                <button onclick="pauseAudio()">||</button>
-                <!-- Bouton stop -->
-                <button onclick="stopAudio()">■</button>
-            </div>
-
-            <!-- Barre de progression -->
-            <div class="progress-bar" onclick="seekAudio(event)">
-                <input type="range" id="progress" value="0" max="100" step="0.1" onchange="seekAudioFromRange(this)">
-            </div>
-        </div>
-    </div>
-	<br/>
+	<div id="nom-projet">Podcast - L'info à l'antenne</div>
 	<hr/>
+	<div class="contenu">
+		<h1>Version hébergée par le site</h1>
+
+
+		<!-- Container principal pour la miniature et les pistes -->
+		<div class="podcast-container">
+			<!-- Miniature -->
+			<div class="miniature">
+				<img src="img/miniature.webp" alt="Miniature du podcast">
+			</div>
+			
+			<!-- Liste des 4 pistes audio -->
+			<div class="pistes">
+				<div class="piste">
+					<!-- Piste 1 -->
+					<button onclick="playAudio('part1')">▶</button>
+					<span>Partie 1</span>
+					<audio id="part1" class="audio" src="audio/l_info_a_l_antenne_ep1_partie_1.wav"></audio>
+				</div>
+				<div class="piste">
+					<!-- Piste 2 -->
+					<button onclick="playAudio('part2')">▶</button>
+					<span>Partie 2</span>
+					<audio id="part2" class="audio" src="audio/l_info_a_l_antenne_ep1_partie_2.wav"></audio>
+				</div>
+				<div class="piste">
+					<!-- Piste 3 -->
+					<button onclick="playAudio('part3')">▶</button>
+					<span>Partie 3</span>
+					<audio id="part3" class="audio" src="audio/l_info_a_l_antenne_ep1_partie_3.wav"></audio>
+				</div>
+				<div class="piste">
+					<!-- Piste 4 -->
+					<button onclick="playAudio('part4')">▶</button>
+					<span>Partie 4</span>
+					<audio id="part4" class="audio" src="audio/l_info_a_l_antenne_ep1_partie_4.wav"></audio>
+				</div>
+
+				<!-- Contrôles audio -->
+				<div class="audio-controls">
+					<!-- Bouton pause -->
+					<button onclick="pauseAudio()">||</button>
+					<!-- Bouton stop -->
+					<button onclick="stopAudio()">■</button>
+				</div>
+
+				<!-- Barre de progression -->
+				<div class="progress-bar" onclick="seekAudio(event)">
+					<input type="range" id="progress" value="0" max="100" step="0.1" onchange="seekAudioFromRange(this)">
+				</div>
+			</div>
+		</div>
+		<br/>
+		<hr/>
+	</div>
+		
+    
+    
 	
 
 	
-
+	<div class="contenu">
 		<h1>Podcast avec SoundCloud</h1>
 
-        <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2049021500%3Fsecret_token%3Ds-7KzWAJUAGEL&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+		<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2049021500%3Fsecret_token%3Ds-7KzWAJUAGEL&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
         </iframe>
         
         <div id="lien-soundcloud">
@@ -96,7 +101,7 @@
         </div>
 
 		<hr/>
-
+	</div>
 		
         <div class="contenu">
 			<h1>Objectifs</h1>
