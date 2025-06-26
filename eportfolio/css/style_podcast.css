@@ -168,3 +168,37 @@ audio {
     width: 100%;
     margin-top: 10px;
 }
+
+
+.contenu {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.contenu h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: justify;
+}
+
+.contenu p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+a:hover{
+    background-color: lightsalmon;
+    color: purple;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
