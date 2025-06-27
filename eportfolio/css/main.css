@@ -72,3 +72,7 @@ a{
     text-align: justify;
 }
 
+.contenu li{
+    list-style-type: circle;
+}
+
