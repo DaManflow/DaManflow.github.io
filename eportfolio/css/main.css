@@ -1,3 +1,14 @@
+a:hover{
+    background-color: antiquewhite;
+    color: blueviolet;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(62, 25, 97);
+    cursor: pointer;
+}
+
 .page-title {
   text-align: center;
   margin: 60px auto 40px;
@@ -61,13 +72,3 @@
     text-align: justify;
 }
 
-a {
-    color: rgb(62, 25, 97);
-    text-decoration: none;
-    cursor: pointer;
-}
-
-a:hover {
-    background-color: lightsalmon;
-    color: blueviolet;
-}
