@@ -63,6 +63,8 @@
 
 .content a {
     color: rgb(62, 25, 97);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .content a:hover {
