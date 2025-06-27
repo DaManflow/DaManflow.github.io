@@ -61,13 +61,13 @@
     text-align: justify;
 }
 
-.content a {
+a {
     color: rgb(62, 25, 97);
     text-decoration: none;
     cursor: pointer;
 }
 
-.content a:hover {
+a:hover {
     background-color: lightsalmon;
     color: blueviolet;
 }
