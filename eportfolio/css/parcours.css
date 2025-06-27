@@ -135,3 +135,12 @@ a{
     margin-bottom: 20px;
     text-align: justify;
 }
+
+.content a {
+    color: rgb(62, 25, 97);
+}
+
+.content a:hover {
+    background-color: lightsalmon;
+    color: blueviolet;
+}
